@@ -25,6 +25,10 @@
 
 /* Header Section */
 
+body{
+    font-size: 1.6rem;
+}
+
 header {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--primary);
@@ -326,6 +330,97 @@ header {
     border-radius: 5%;
 }
 
+/* New Arrival */
+.arrival{
+    padding: 80px 60px;
+}
+
+.arrival h2{
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--gray-600);
+}
+
+.arrival p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.arrival h4{
+    font-size: 2rem;
+    color: var(--gray-600);
+    font-weight: 600;
+}
+
+.arrival span{
+    font-size: 1.6rem;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.arrival .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrival .arrival-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrival-head .arrow-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.arrival-head .arrow-icons i{
+    font-size: 1.6rem;
+    padding: 8px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+}
+
+.arrival-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.arrival-cards .card{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+}
+
+.arrival .more-items{
+    display: flex;
+    justify-content: center;
+}
+
+.arrival .more-items button{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 12px 24px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 40px;
+}
+
+.arrival .more-items button:hover{
+    cursor: pointer;
+    background-color: var(--secondary);
+}
 
 
 
