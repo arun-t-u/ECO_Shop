@@ -9,6 +9,7 @@
     --success: #36B37E;
     --waring: #FFAB00;
     --error: #FF5630;
+    --gray-100: #E6E6E6;
     --gray-200: #ccc;
     --gray-400: #999999;
     --gray-500: #666;
@@ -259,6 +260,72 @@ header {
     color: var(--white);
     font-weight: 600;
 }
+
+/* Wanted Products */
+.products{
+    background-color: var(--primary);
+    padding: 80px 60px;
+    margin-top: 20px;
+}
+
+.products .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.products h2{
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.products h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--gray-100);
+}
+
+.product-cards h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.products strike, .products span{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.product-cards{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product-cards .cards{
+    width: 312px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.product-cards .cards img{
+    width: 100%;
+    border-radius: 5%;
+}
+
 
 
 
