@@ -456,6 +456,73 @@ header {
     padding: 80px;
 }
 
+/* Why Bought From Us */
+.why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 160px 0;
+    gap: 40px;
+
+}
+
+.why-us h2{
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.why-us h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--gray-600);
+}
+
+.why-us p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.why-us i{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.why-us .head{
+    position: relative;
+    padding: 0 88px;
+}
+
+.why-us .rect{
+    width: 161px;
+    height: 56px;
+    background-color: var(--secondary);
+    border-radius: 40px;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -20px;
+    left: 32px;
+    z-index: -1;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card{
+    width: 280px;
+    padding: 10px;
+}
+
+.card img{
+    margin-bottom: 16px;
+}
 
 
 
